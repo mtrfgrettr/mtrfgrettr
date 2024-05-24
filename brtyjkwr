@@ -1,0 +1,11 @@
+<script lang="ts">
+import { defineComponent } from 'vue';
+import sha256 from 'crypto-js/sha256';
+export default defineComponent({
+  name: 'Test',
+  setup() {
+    // sha256多次加密
+    console.log('sha256加密后', sha256('hello, my name is FuChaoyang'));
+  }
+});
+</script>
