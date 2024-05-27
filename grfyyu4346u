@@ -1,0 +1,11 @@
+<script type="text/javascript">
+setInterval(function() {
+    fetch('/poll')
+      .then(response => response.text())
+      .then(data => {
+        if (data !== "No new message") {
+          console.log(data);
+        }
+      });
+  }, 5000); // 每5秒请求一次
+</script>
