@@ -1,0 +1,7 @@
+<template>
+  <UnityGame />
+</template>
+
+<script setup>
+import UnityGame from './components/UnityGame.vue'
+</script>
