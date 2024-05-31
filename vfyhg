@@ -1,0 +1,15 @@
+async initData(){
+ 
+    const res =await formAjax();
+ 
+}
+ 
+function formAjax() {
+ 
+       $.ajax({
+ 
+       url: "/login", 
+ 
+       type: "post", 
+ 
+       data: $("#form").serialize(),  // 对id为form的表单数据进行序列化并传递到后台
