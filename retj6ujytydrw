@@ -1,0 +1,7 @@
+    //当客户端的请求参数是一个 json 格式,需要进行参数绑定
+    //json 格式的数据可以简单理解认为就是用类对象来接收的，因为格式很相识
+    @RequestMapping("/jsonParam")
+    public String jsonParam(@RequestBody User user){
+        System.out.println(user);
+        return "OK";
+    }
