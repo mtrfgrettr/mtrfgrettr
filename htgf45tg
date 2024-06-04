@@ -1,0 +1,21 @@
+<!-- 分类 轮播图 右侧栏 -->
+<div id="index_box">
+  <div class="index">
+    <!-- 图书分类目录 -->
+    <div class="book_menu">
+      <ul class="list_group">
+        <li class="list_item"><a href="novel.jsp">文学</a></li>
+        <li class="list_item"><a href="edu.jsp">教育</a></li>
+        <li class="list_item"><a href="eco_man.jsp">经管</a></li>
+        <li class="list_item"><a href="encour.jsp">励志</a></li>
+        <li class="list_item"><a href="live.jsp">生活</a></li>
+        <li class="list_item"><a href="social.jsp">社科</a></li>
+        <li class="list_item"><a href="sci.jsp">科技</a></li>
+      </ul>
+</div>
+
+————————————————
+
+                            版权声明：本文为博主原创文章，遵循 CC 4.0 BY-SA 版权协议，转载请附上原文出处链接和本声明。
+                        
+原文链接：https://blog.csdn.net/qq_43605229/article/details/126354334
