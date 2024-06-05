@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title><style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .wp{
+            width: 200px;
+            height: 200px;
+            background-color: #04be02;
+            /* 十字形 */
+            cursor: crosshair;
+            /* 小手儿 */
+            cursor: pointer;
+            /* 移动效果 */
+            cursor: move;
+            /* 查看文本效果 */
+            cursor: text;
+            /* 鼠标等待效果 */
+            cursor: wait;
+            /* 带问号的箭头 */
+            cursor: help;
+            /* 禁用效果 */
+            cursor: not-allowed;
+            /* 默认指针 */
+            cursor: default;
+            /* 根据内容自己改变样式 */
+            cursor: auto;
+            /* 禁止用户选中文字 */
+            user-select: none;
+        }
+        select{
+            width: 200px;
+            height: 40px;
+            /* 重置样式 */
+            appearance: none;
+            background: url(./images/矢量智能对象3.png) no-repeat  160px center;
+            background-size: 20px 10px;
+        }
+    </style>
+</head>
+<body>
+    <!-- 
+        鼠标手势，指的是鼠标在页面或者元素上的样式
+        cursor
+            值：
+             crosshair 用于精确定位的 十字形
+             pointer   鼠标显示小手
+             move      拖拽效果时候的鼠标样式
+             text      鼠标悬浮在文本上的样子
+             wait      鼠标等待加载时候的样子
+             help       鼠标显示带问号箭头
+             not-allowed  禁用效果
+             default     默认指针样式
+             auto         鼠标按照默认的状态根据页面上的内容自行
+                          修改样式
+     -->
+    <div class="wp">极致就是把自己逼疯</div>
+ 
+    <select name="" id="">
+        <option value="1">周</option>
+        <option value="2">周</option>
+        <option value="3">周</option>
+        <option value="4">周</option>
+    </select>
+</body>
+</html>
