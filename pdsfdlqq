@@ -1,0 +1,9 @@
+        //获取url
+        String url = request.getRequestURI();
+ 
+        //判断该url是否是登录请求
+        if (url.contains("login")){
+            //如果是的话，直接放行
+            filterChain.doFilter(servletRequest,servletResponse);
+            return;
+        }
