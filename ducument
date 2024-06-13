@@ -1,0 +1,22 @@
+var _w = $(document).width();
+        if(_w>=1200){
+            _w=640;
+        }
+        _h=_w/16*9;
+        
+    function resizeAll(){
+        var _w = $(document).width();
+        if(_w>=1200){
+            _w=640;
+        }
+        _h=_w/16*9;
+        if(player.isFullscreen()==true){
+        }
+        document.getElementById('coplayer').style.left=($(document).width()-_w)/2+'px';
+        document.getElementById('coplayer').style.width=_w+'px';
+        document.getElementById('coplayer').style.height=_h+'px';
+ 
+    function aiplaymark(curtime){
+        player.currentTime(curtime);
+        player.play();
+    }
