@@ -1,0 +1,20 @@
+
+                </view>
+                <view class="rightProductInfo">
+                  <image src="{{imgUrl}}/upload/20220608/ky.jpg" class="cart-productImg"></image>
+                  <view class="productInfoBox">
+                    <view class="cart-productName littleTwo">超级无敌好吃美味烤鸭</view>
+                    <view class="cart-productSku little">500g</view>
+                    <view class="cart-productPrice">
+                      <text class="priceSymbol">￥</text>
+                      <text class="cart-price">58.8</text>
+                      <text class="cart-oldPrice">￥98</text>
+                    </view>
+                  </view>
+                  <view class="cart-rightNumBox">
+                    <view class="cart-con-item-num">
+                      <text class="cart-con-item-num-left" catchtap="bindMinus" data-other="{{idx}}" data-index="{{indexProduct}}" data-cartid="{{ProItem.cartId}}">-</text>
+                      <input type="cart-con-item-num-mid" bindinput="bindIptCartNum" data-index='{{indexProduct}}' value="1" disabled="{{true}}" />
+                      <text class="cart-con-item-num-right" data-other="{{idx}}" data-index="{{indexProduct}}" data-cartid="{{ProItem.cartId}}" catchtap="bindPlus">+</text>
+                    </view>
+                  </view>
