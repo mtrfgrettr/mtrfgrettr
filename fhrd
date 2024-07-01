@@ -1,0 +1,14 @@
+def process_input(value):
+    if isinstance(value, int):
+        print(f"Processing integer: {value}")
+    elif isinstance(value, float):
+        print(f"Processing float: {value}")
+    elif isinstance(value, str):
+        print(f"Processing string: {value}")
+    else:
+        print("Unsupported type")
+ 
+process_input(10)    # 输出：Processing integer: 10
+process_input(3.14)  # 输出：Processing float: 3.14
+process_input("hello")  # 输出：Processing string: hello
+process_input([])    # 输出：Unsupported type
